@@ -10,29 +10,90 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 3em;
+    justify-content: space-between;
+    height: 48px;
 }
 
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    flex: 0 0 auto;
+    margin: 0 12px 0 144px;
 }
 
 .header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex: 0 0 auto;
+    margin: 0 144px 0 12px;
 }
 
 .header li {
     display: inline;
-    margin: 8px;
+    margin: 6px;
 }
 
 .header a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* main card */
+.main-card {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    height: 480px;
+}
+
+.main-card .text {
+    height: 252px;
+    width: 462px;
+    flex: 0 0 auto;
+    margin: 0 12px 0 144px;
+}
+
+.main-card .text .tagline {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 6px;
+}
+
+.main-card .text .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 6px;
+}
+
+.main-card .text button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.main-card .picture {
+    background-color: #747474;
+    height: 252px;
+    width: 567px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin: 0 144px 0 12px;
+}
+
+.main-card .picture .placeholder {
+    font-size: 18px;
+    color: #F9FAF8;
+    height: fit-content;
 }
