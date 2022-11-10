@@ -88,9 +88,52 @@ body {
     color: #F9FAF8;
     background-color: #797781;
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     align-items: center;
     justify-content: center;
 }
 
 /* information card */
+.information-card {
+    height: 528px;
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information-card .header {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+    color: #1F2937;
+    background-color: #F9FAF8;
+    flex: 0 0 auto;
+}
+
+.information-card .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-card .images .container {
+    width: 168px;
+    margin: 30px;
+}
+
+.information-card .images .container .image {
+    width: 156px;
+    height: 156px;
+    border-radius: 18px;
+    border: #3882F6 solid 6px;
+}
+
+.information-card .images .container .subtext {
+    font-size: 18px;
+    margin-top: 6px;
+    color: #1F2937;
+    text-align: center;
+}
