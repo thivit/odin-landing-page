@@ -7,7 +7,7 @@ body {
 
 /* header */
 .header {
-    height: 48px;
+    height: 72px;
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -203,4 +203,19 @@ body {
     font-weight: bold;
     color: #F9FAF8;
     background-color: #3882F6;
+}
+
+/* footer */
+.footer {
+    height: 120px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer .text {
+    font-size: 18px;
+    color: #F9FAF8;
 }
