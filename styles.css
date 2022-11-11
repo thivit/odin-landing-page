@@ -11,22 +11,24 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header .logo {
+    width: 462px;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
-    margin: 0 12px 0 144px;
+    margin-right: 48px;
     flex: 0 0 auto;
 }
 
 .header ul {
+    width: 510px;
     padding: 0;
     font-size: 18px;
-    margin: 0 144px 0 12px;
     list-style-type: none;
+    text-align: right;
     flex: 0 0 auto;
 }
 
@@ -52,7 +54,7 @@ body {
 .main-card .text {
     height: 240px; 
     width: 462px;
-    margin: 0 12px 22px 144px;
+    margin-right: 48px;
     flex: 0 0 auto;
 }
 
@@ -84,11 +86,10 @@ body {
     width: 510px;
     height: 240px;
     font-size: 18px;
-    margin: 0 144px 22px 12px;
     color: #F9FAF8;
     background-color: #797781;
     display: flex;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
 }
