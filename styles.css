@@ -52,7 +52,7 @@ body {
 .main-card .text {
     height: 240px; 
     width: 462px;
-    margin: 0 12px 0 144px;
+    margin: 0 12px 22px 144px;
     flex: 0 0 auto;
 }
 
@@ -84,7 +84,7 @@ body {
     width: 510px;
     height: 240px;
     font-size: 18px;
-    margin: 0 144px 0 12px;
+    margin: 0 144px 22px 12px;
     color: #F9FAF8;
     background-color: #797781;
     display: flex;
